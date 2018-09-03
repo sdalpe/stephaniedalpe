@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<title>Stephanie Dalpe</title>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" href="layout.css" />
+<link rel="icon" href="images/favicon.png">
+</head>
+<body>
+<main>
+  <h1>Stephanie Dalpe</h1>
+  <h2>web developer</h2>
+  <p><a href="#about">explore</a></p>
+</main>
+<div class="banner" style="margin-left:0px;height: 25%;position: fixed;top: 0;width: 100%; z-index: 9999 !important;">
+    <img src="images/banner.png" alt="banner" style="display: inline; float: left; width: 20%;">
+
+  <nav class="nav" style="display:inline;">
+      <ul class="nav-bar">
+        <li><a href="#">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#portfolio">portfolio</a></li>
+        <li><a href="#contact">contact me</a></li>
+      </ul>
+  </nav>
+</div>
+
+<section id="about" style="height:100%;">
+
+  <div id="mainabout">
+  <h2>Hello World!</h2>
+    <p>
+      My name is Stephanie Dalpe,  I am a Web Developer that has passion for creating innovative, dynamic, and
+      beautiful websites and applications. I live in London, Ontario and currently working as a Full-stack Web Developer for Eighty8 Ventures creating internal 
+      applications.
+    </p>
+  <h2>Education</h2>
+  <p>I graduated in April 2018 with a diploma in Internet Applications and Web Development from Fanshawe College, London Ontario.
+  	Achieving Dean's Honour Roll for 3 academic semesters in a row.</p>
+  <p>I went to the University of Windsor and graduated with a Bachelors of Sociology. While in my undergrad I took a few basic end-user
+    computer courses and really enjoyed the content. A year after graduating I decided to pursue IWD (Internet Applications and Web Development) at Fanshawe College.</p>
+  </div>
+  <img src="images/myself.png" alt="mypic" id="mypic"/>
+  <br />
+</section>
+<section id="portfolio"  style="width:100%; height:100%;">
+  <h2>Portfolio</h2>
+  <br />
+  <div class="gallery">
+    <h3>Languages</h3>
+    <ul>
+      <li><img src="images/icons/html.png" alt="html5"  /></li>
+      <li><img src="images/icons/js.png" alt="javascript" /></li>
+      <li><img src="images/icons/php.png" alt="php" /></li>
+      <li><img src="images/icons/css.png" alt="css" /></li>
+      <li><img src="images/icons/xml.png" alt="xml" /></li>
+      <li><img src="images/icons/sql.png" alt="sql" /></li>
+    </ul>
+  </div>
+  <br />
+  <div id="frameworks">
+    <h3>Frameworks</h3>
+    <ul>
+      <li>Laravel/Lumen</li>
+      <li>ReactJS/Preact</li>
+      <li>Linux/Apache</li>
+      <li>C#/ASP.NET</li>
+      <li>Bootstrap</li>
+    </ul>
+  </div>
+  <div id="projects">
+  <div class="container" style="display:block; padding-left: 0px;">
+  <h3>Projects</h3>
+  <br />
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#proj1">Project 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#proj2">Project 2</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#proj3">Project 3</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#proj4">Project 4</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div id="proj1" class="container tab-pane active"><br>
+      <h3>SEAMS Messenger</h3>
+      <a href="http://www.seams.me">www.seams.me</a>
+      <br />
+      <p>Using Firebase and node.JS, my group and I created a messenger application.</p>
+      <br />
+      <img src="images/seams.png" alt="messenger" style="width: 500px; height: 500px;" />
+      <img src="images/seamscode.png" alt="seams code" style="width: 500px; height: 500px;"/>
+    </div>
+    <div id="proj2" class="container tab-pane fade"><br>
+      <h3>Contact Book</h3>
+      <br />
+      <p>Using PHP, my group and I created a contact book application to hold details of contacts.</p>
+      <br />
+      <img src="images/contact.png" alt="contact book" style="width: 500px; height: 500px;"/>
+      <img src="images/contactcode.png" alt="contact code" style="width: 500px; height: 500px;"/>
+    </div>
+    <div id="proj3" class="container tab-pane fade"><br>
+      <h3>Customer Satisfaction Survey</h3>
+      <br />
+      <p>Using PHP, I created a customer satisfaction survey using multi-page forms.</p>
+      <br />
+      <img src="images/survey.png" alt="survey" style="width: 550px; height: 500px;"/>
+      <img src="images/surveycode.png" alt="survey code" style="width: 500px; height: 500px;"/>
+    </div>
+    <div id="proj4" class="container tab-pane fade"><br>
+      <h3>London Sushi Map</h3>
+      <br />
+      <p>Using JavaScript, I created a website that used Bing Maps API to pin point sushi
+        restaurants in London, Ontario.</p>
+      <br />
+      <img src="images/sushijs.png" alt="sushi map" style="width: 700px; height: 400px;"/>
+      <img src="images/sushicode.png" alt="sushi code" style="width: 390px; height: 450px;"/>
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+<section id="contact" style="width:100%; height:100%; display:block;">
+  <div id="contacticons">
+    <h2 style="text-align:center">Contact me for more information!</h2>
+    <ul>
+      <li><a href="mailto:stephaniedalpe@live.com"><img src="images/email.png" alt="email"/></a></li>
+      <li><a href="https://www.linkedin.com/in/stephanie-dalpe-59a559155/"><img src="images/linkedin.png" alt="linkedin"/></a></li>
+      <li><a href="https://github.com/sdalpe"><img src="images/github.png" alt="github" /></a></li>
+    </ul>
+  </div>
+</section>
+
+</body>
+</html>
